@@ -7,23 +7,26 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = "*『👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑』*"
-global.confirmCode = ""
+global.botnumber = ""
 
-global.owner = [['201280244814', '⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩', true],
+global.owner = [
+  ['212658594530', 'bobiza', true],
+
+  ['212658594530','bobiza', true],
+  ['212658594530'],
+  ['212658594530']
 ];
 
-global.suittag = ['201280244814'];
-global.prems = ['201280244814'];
+global.suittag = ['212658594530'];
+global.prems = ['212658594530'];
 
-global.packname = '𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩';
-global.author = '👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑';
-global.wm = '👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑';
-global.titulowm = '☾︎ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽︎';
-global.titulowm2 = `☾︎ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽︎`
-global.igfg = '☾︎ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽︎';
-global.wait = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-
+global.packname = 'اللهم صل وسلم على نبينا محمد ';
+global.author = 'اللهم صل وسلم على نبينا محمد ';
+global.wm = 'senkubot';
+global.titulowm = 'bobiza';
+global.titulowm2 = `bobiza`
+global.igfg = 'bobiza';
+global.wait = '*|🏃| loading...*\n*نحاول تلبية طلبكم لا تستعجلوا* ♥اللهم صل وسلم على نبينا محمد ';
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
@@ -35,22 +38,22 @@ global.mods = [];
 
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
-global.locale = 'ar';
+global.locale = 'en';
 global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
-global.fecha = d.toLocaleDateString('ar', {day: 'numeric', month: 'numeric', year: 'numeric'});
-global.mes = d.toLocaleDateString('ar', {month: 'long'});
-global.año = d.toLocaleDateString('ar', {year: 'numeric'});
-global.tiempo = d.toLocaleString('ar-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
+global.fecha = d.toLocaleDateString('en', {day: 'numeric', month: 'numeric', year: 'numeric'});
+global.mes = d.toLocaleDateString('en', {month: 'long'});
+global.año = d.toLocaleDateString('en', {year: 'numeric'});
+global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n☾︎ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽︎`;
-global.gt = '☾︎ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽︎';
-global.mysticbot = '☾︎ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽︎';
-global.md = 'https://chat.whatsapp.com/H93YpO0LkJNHoTmtIhcL1z';
-global.mysticbot = 'atom.bio/harley_light';
-global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.waittt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.waitttt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.nomorown = '201280244814';
+global.wm2 = `${dia} ${fecha}\nBOBIZA`;
+global.gt = 'BOBIZA';
+global.mysticbot = 'The BOBIZA';
+global.md = 'https://www.instagram.com/irin_yeger_2007?igsh=OGQ5ZDc2ODk2ZA==';
+global.mysticbot = 'https://instagram.com/noureddine_ouafy';
+global.waitt = '*[ ⏳ ] LOADING...*';
+global.waittt = '*[ ⏳ ] LOADING...*';
+global.waitttt = '*[ ⏳ ] LOADING...*';
+global.nomorown = '212713542982';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
@@ -65,8 +68,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `*[ 📅 ] التاريخ:*  ${moment.tz('Egypt/cairo_city').format('DD/MM/YY')}`;
-global.bottime = `*[ ⏳ ] الوقت:* ${moment.tz('Egypt/cairo_city').format('HH:mm:ss')}`;
+global.botdate = `*[ 📅 ] Fecha:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
+global.bottime = `*[ ⏳ ] Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
