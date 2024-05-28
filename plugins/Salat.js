@@ -1,4 +1,4 @@
-.//قناتي https://whatsapp.com/channel/0029VadAOFcL2ATzSf46sI0r
+//قناتي https://whatsapp.com/channel/0029VadAOFcL2ATzSf46sI0r
 import axios from 'axios';
 
 const handler = async (m, { text }) => {
@@ -22,6 +22,3 @@ handler.command = ['الصلاة', 'مواقيت_الصلاة']
 handler.tags = ['tools']
 
 export default handler
-
-
-> ROPERTO AL MASRY
