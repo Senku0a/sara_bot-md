@@ -7,12 +7,12 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = ""
+global.botnumber = "212713542982"
 
 global.owner = [
-  ['212658594530', 'bobiza', true],
+  ['212658594530', 'creator', true],
 
-  ['212658594530','bobiza', true],
+  ['212658594530','creador', true],
   ['212658594530'],
   ['212658594530']
 ];
@@ -25,7 +25,7 @@ global.author = 'اللهم صل وسلم على نبينا محمد ';
 global.wm = 'senkubot';
 global.titulowm = 'bobiza';
 global.titulowm2 = `bobiza`
-global.igfg = 'bobiza';
+global.igfg = 'ahmed';
 global.wait = '*|🏃| loading...*\n*نحاول تلبية طلبكم لا تستعجلوا* ♥اللهم صل وسلم على نبينا محمد ';
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
