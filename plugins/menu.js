@@ -9,7 +9,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isP
 try {
 let vn = './Menu.png'
 let pp = imagen4
-let img = await(await fetch('https://telegra.ph/.')).buffer()
+let img = await(await fetch('https://telegra.ph/file/4ef8d2eebb469fd865df4.jpg')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'ar'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -24,11 +24,11 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `مرحبا بك/ي معاك/ي 𝑺𝐴𝑅𝐴-𝐵𝛩𝑇
+let str = `مرحبا بك/ي معاك/ي SENKU-BOT
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
 قسم الجروبات 🪭
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
-𝑺𝐴𝑅𝐴-𝐵𝛩𝑇🪭
+SENKU-BOT🪭
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
 🪭|ضيف
 🪭|الاشباح
@@ -162,7 +162,7 @@ let str = `مرحبا بك/ي معاك/ي 𝑺𝐴𝑅𝐴-𝐵𝛩𝑇
 🎧 ناعم
 🎧 سنجاب
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
-𝑺𝐴𝑅𝐴-𝐵𝛩𝑇🪭
+SENKU-BOT🪭
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
 
 `.trim()
@@ -179,7 +179,7 @@ let str = `مرحبا بك/ي معاك/ي 𝑺𝐴𝑅𝐴-𝐵𝛩𝑇
         }
 
         function _0x42ca() {
-            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', '⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩👑', '406070MLYaeB', 'https://www.atom.bio/harley_light', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
+            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', '⁨SZNKU ISHIGAMI⁩👑', '406070MLYaeB', 'https://www.instagram.com/irin_yeger1?igsh=OGQ5ZDc2ODk2ZA==', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
             _0x42ca = function () {
                 return _0xe1e20e;
             };
